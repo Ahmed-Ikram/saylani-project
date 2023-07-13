@@ -1,0 +1,90 @@
+h1 {
+  color: #df6b0d;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+input,textarea{
+    outline: none;
+}
+.formDiv {
+  background-color: #6b5acd;
+  width: 85%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.inp200px {
+  outline: none;
+  padding: 4px;
+  width: 200px;
+}
+
+.lastNameDiv,
+.mobNumbDiv ,.cityDiv,.pincodeDiv , .stateDiv,.countryDiv{
+  margin-top: 15px;
+}
+
+.textArreAdiv {
+  margin-top: 20px;
+}
+.addressInpHeading {
+  top: -85px;
+  position: relative;
+}
+.textArea {
+  width: 300px;
+  height: 100px;
+}
+
+.othersInp {
+  outline: none;
+}
+
+.hobbies {
+  margin-top: 20px;
+}
+
+/* --------------------------------------table styles----------------------------------------- */
+.QualitficationMain {
+  display: flex;
+  margin-top: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+.tableNav {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.tableRowInps {
+  display: flex;
+  flex-direction: row;
+}
+.tableRowInps {
+    margin-top: 5px;
+}
+
+
+.tableRowInps div{
+    padding-left: 30px;
+}
+
+
+.courses{
+    margin-top: 15px;
+}
+
+
+.btns{
+    width: 300px;
+    margin:auto;
+    margin-top: 40px;
+
+}
